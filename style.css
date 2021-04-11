@@ -1,0 +1,192 @@
+#section1{
+    padding: 1.25% ;
+    background-color: rgb(69, 69, 233);
+}
+#section2{
+    padding: 1.5% ;
+    margin: 1.25% 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+#aboutus{
+    text-align: center;
+    padding: 1.5% ;
+    
+    background-color: rgb(255, 255, 255);
+    padding-bottom:5% ;
+
+}
+#section3{
+    
+    padding: 5% 1.5%;
+    background-color: rgb(69, 69, 233);
+
+   
+    text-align: center;
+    color: black;
+}
+#section4{
+    margin: 1.5% 0;
+    padding: 1.5%;
+    background-color: rgb(255, 255, 255);
+}
+#section5{
+    margin: 0 auto; 
+    padding: 1.5%;
+   
+    background-color: rgb(69, 69, 233);
+}
+#footersection{
+    text-align: center;
+    background-color: rgb(69, 69, 233);
+    padding: 2.5%;
+}
+h1{
+    width: 50%;
+    font-weight: bold;
+    font-size: 5em;
+    color: black;     
+    font-family: 'Dela Gothic One', cursive;
+}
+
+h2{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px #d4c4c4;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Kiwi Maru', serif;
+    padding: 2%;
+}
+h6{
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+p{
+    line-height: 1.5;
+    color: black;
+  
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+.nav-link{
+    font-size: 1.25em;
+   padding: 2%;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 800;
+}
+.card{   
+  margin: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+   
+}   
+.card:hover{
+    box-shadow:10px 10px 10px #2c2c2c;
+    background-color: rgb(187, 184, 184);
+}
+
+.introsection{
+    background-image: url(images/new-removebg-preview.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding:7% 1%;
+    animation-name: intro;
+    animation-duration: 4s;
+    opacity: 1;
+}
+@keyframes intro{
+    from{
+        opacity: 0;       
+    }
+    to{
+        opacity: 1;    
+    }
+}
+
+.image{
+   background-image: url(images/3-removebg-preview.jpg);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+.icon{
+    font-size: 2.5em;
+}
+.column1{
+    margin: 10%;
+}
+.column1:hover{
+    box-shadow: yellow;
+}
+
+@media only screen and (max-width:900px) {
+    #section1{
+        padding: 0 ;
+        background-color: rgb(63, 63, 243);
+    }
+    #section2{
+        padding: 0;
+        margin: 10% 0;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    #aboutus{
+        text-align: left;
+        padding: 1.5% ;
+        
+        background-color: rgb(255, 255, 255);
+        padding-bottom:5% ;
+    
+    }
+    #section3{
+       text-align: center;
+        padding: 1.5%;
+        background-color: rgb(63, 63, 243);
+    }
+    h1{
+        width:50%;
+        font-weight: bold;
+        font-size:3em;
+    }
+    h2{
+        font-size:2em;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+    }
+    .introsection{
+        background-image: url(images/new.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:cover;
+       
+    }
+    .image{
+        display: none;
+     }
+    .card{   
+        
+        align-items: center;
+         margin: 30px 0;
+          text-align: center;
+          cursor: pointer;
+          border-radius: 15px;
+         
+      }   
+      .card:hover{
+          box-shadow:10px 10px 10px #2c2c2c;
+      }
+   
+      
+ 
+}
