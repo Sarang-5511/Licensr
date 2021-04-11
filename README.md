@@ -5,7 +5,7 @@ Licensr is a one stop application for licenese generation, transfer and authenti
 
 ## <img src="https://www.pinclipart.com/picdir/big/352-3523258_implementation-icon-implementation-mechanism-vector-clipart.png" width="40" height="32"> Problems solved and features of our project
 1.License Management  
-2.Software Piracy Reduction
+2.Software Piracy Reduction  
 3.Safe and Secure Storage  
 4.Easy Access  
 5.License Cost Reduction  
